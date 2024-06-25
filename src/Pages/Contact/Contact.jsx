@@ -5,7 +5,7 @@ function Contact() {
     return (
         <>
             <div className="w-screen h-screen bg-slate-500">
-                <h1>Contact</h1>
+                <h1>CONTACT</h1>
             </div>
         </>
 

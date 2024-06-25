@@ -9,6 +9,8 @@ import About from './../About/About';
 import FAQ  from '../FAQ/Faq';
 import Services from '../Services/Services';
 import Contact from '../Contact/Contact';
+import Media from '../Media/Media';
+import Resources from '../Resources/Resources'
 
 
 
@@ -20,14 +22,16 @@ function App() {
       <main className='App'>
         <>
           <Router>
-          <div className='w-screen bg-green-600 sticky top-0 z-50 flex justify-between px-4 py-3'>
+          <div className='sticky top-0 z-50 w-full'>
             <NavBar />          
           </div>        
             <Routes>
               <Route path='/' element={ <HomePage /> } />
               <Route path='/about' element={ <About /> } />
-              <Route path='faq' element={ <FAQ /> } />
               <Route path='services' element={ <Services /> } />
+              <Route path='faq' element={ <FAQ /> } />
+              <Route path='resources' element={ <Resources /> } />
+              <Route path='media' element={ <Media /> } />
               <Route path='contact' element={ <Contact /> } />
             </Routes>
           </Router>

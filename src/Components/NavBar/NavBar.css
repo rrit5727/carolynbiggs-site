@@ -1,0 +1,16 @@
+.navbar {
+  transition: background-color 1s ease, color 1s ease; 
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar.bg-transparent {
+  background-color: transparent;
+  color: white; /* Default text color */
+}
+
+.navbar.bg-white {
+  background-color: white;
+  color: turquoise; /* Text color when scrolled */
+}
