@@ -4,8 +4,8 @@ function HomePage() {
 
   return (
     <>
-      <div>
-        <h1>App</h1>
+      <div className="bg-blue-600 h-screen w-screen">
+        <h1>Home</h1>
       </div>
     </>
   )
