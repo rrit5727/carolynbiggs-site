@@ -13,7 +13,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'light-gold': '#FFD700', 
+        'light-gold': '#FFD700',
+        'turquoise': '#40E0D0', 
       }
     },
   },

@@ -25,46 +25,46 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div id="navbar" className={`w-screen  flex justify-between px-4 py-3 
-                    ${scrolled ? 'bg-white text-turquoise' : 'bg-transparent text-white'}`}>
+    <div id="navbar" className={`w-screen absolute flex justify-between px-4 py-3 
+                    ${scrolled ? 'bg-white text-white' : 'bg-transparent text-white'}`}>
       <div className='flex-col'>
-        <h1>Carolyn Biggs</h1>
-        <h2>Allied Mental Health Professional</h2>
+        <h1 className=''>Carolyn Biggs</h1>
+        <p className='text-3xl'>Allied Mental Health Professional</p>
         <h3 className='font-bold'>(BSW Hons., MS., MAASW)</h3>
       </div>
       <ul className='flex items-center'>
         <li className='px-2'>
-          <Link to="/" >
+          <Link to="/" className={scrolled ? 'text-teal-600' : 'text-white'} >
             HOME
           </Link>
         </li>
         <li className='px-2'>
-          <Link to="/About" >
+          <Link to="/About" className={scrolled ? 'text-teal-600' : 'text-white'} >
             ABOUT 
           </Link>
         </li>
         <li className='px-2'>
-          <Link to="/Services" >
+          <Link to="/Services" className={scrolled ? 'text-teal-600' : 'text-white'} >
             SERVICES
           </Link>
         </li>
         <li className='px-2'>
-          <Link to="/FAQ" >
+          <Link to="/FAQ" className={scrolled ? 'text-teal-600' : 'text-white'} >
             FAQs
           </Link>
         </li>
         <li className='px-2'>
-          <Link to="/Resources" >
+          <Link to="/Resources" className={scrolled ? 'text-teal-600' : 'text-white'} >
             RESOURCES
           </Link>
         </li>
         <li className='px-2'>
-          <Link to="/Media" >
+          <Link to="/Media" className={scrolled ? 'text-teal-600' : 'text-white'} >
             MEDIA
           </Link>
         </li>
         <li className='px-2'>
-          <Link to="/Contact" >
+          <Link to="/Contact" className={scrolled ? 'text-teal-600' : 'text-white'} >
             CONTACT 
           </Link>
         </li>
