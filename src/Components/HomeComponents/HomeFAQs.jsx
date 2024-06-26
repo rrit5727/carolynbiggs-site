@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function HomeFAQs () {
 
     return (
-      <div className="bg-gray-100 flex flex-row w-screen justify-around items-center  " style={{height: '80vh'}}>
+      <div className="bg-gray-100 flex flex-row w-screen justify-around items-center  py-20" >
         <div className="  bg-transparent flex flex-row justify-center">
           <div className="flex flex-col w-1/4">
             <img 

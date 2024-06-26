@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function WhereToStart () {
 
     return (
-      <div className="bg-gray-300 flex flex-row w-screen justify-around items-center  " style={{height: '80vh'}}>
+      <div className="bg-gray-300 flex flex-row w-screen justify-around items-center py-20 " >
         <div className="  bg-transparent flex flex-row justify-center">
           <div className="w-2/5 px-12">
             <p className="text-4xl mb-3">Where to Start</p>
