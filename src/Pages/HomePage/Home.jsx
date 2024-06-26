@@ -4,6 +4,9 @@ import Ocean2 from '../../assets/ocean2.mp4'
 import { Link } from "react-router-dom";
 import HomeIntro from '../../Components/HomeComponents/HomeIntro';
 import HomeServices from "../../Components/HomeComponents/HomeServices";
+import WhereToStart from "../../Components/HomeComponents/WhereToStart";
+import HomeFAQs from "../../Components/HomeComponents/HomeFAQs";
+
 
 function HomePage() {
 
@@ -16,6 +19,9 @@ function HomePage() {
       </div>
       <HomeIntro />
       <HomeServices />
+      <WhereToStart />
+      <HomeFAQs />
+      
     </>
   )
 }
